@@ -1,0 +1,32 @@
+﻿{
+  {
+    "disabled": false,
+    "bindings": [
+      {
+        "authLevel": "function",
+        "name": "req",
+        "type": "httpTrigger",
+        "direction": "in"
+      },
+      {
+        "name": "$return",
+        "type": "http",
+        "direction": "out"
+      },
+      {
+        "type": "table",
+        "name": "tableChallengeReaderBinding",
+        "tableName": "Challenge3Input",
+        "take": "50",
+        "connection": "AzureWebJobsStorage",
+        "direction": "in"
+      },
+      {
+        "tableName": "Challenge3Input",
+        "connection": "AzureWebJobsStorage",
+        "name": "tableChallengeWriterBinding",
+        "type": "table",
+        "direction": "out"
+      }
+    ]
+  }

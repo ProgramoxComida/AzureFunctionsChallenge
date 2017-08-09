@@ -7,7 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Challenge_1", "Challenge_1\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Challenge_2", "Challenge_2\Challenge_2.csproj", "{1287BB7A-349F-4F20-90F5-EC714901D146}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Challenge_3", "Challenge_3\Challenge_3.csproj", "{E1EC3545-F544-4FA7-8F48-1CB04ACD309C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Challenge_3", "Challenge_3\Challenge_3.csproj", "{E1EC3545-F544-4FA7-8F48-1CB04ACD309C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -1,7 +1,11 @@
 {
-    "IsEncrypted": false,
-    "Values": {
-        "AzureWebJobsStorage": "",
-        "AzureWebJobsDashboard": ""
-    }
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "<Aqui van los datos de tu AzureWebJobsStorage que vienen en tu AppSettings en Azure>",
+    "AzureWebJobsDashboard": ""
+  },
+  "Host": {
+    "LocalHttpPort": 7071,
+    "CORS": "*"
+  }
 }
